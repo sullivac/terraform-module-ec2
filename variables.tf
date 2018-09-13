@@ -7,6 +7,11 @@ variable "instance_count" {
   default     = 1
 }
 
+variable "instance_type" {
+  description = "EC2 instance type"
+  default     = "m5.large"
+}
+
 variable "user_data" {
   description = "User data script"
 }
