@@ -21,6 +21,7 @@ variable "subnet_id" {
 
 variable "vpc_security_group_ids" {
   description = "VPC security group ids for the instances"
+  type        = "list"
 }
 
 variable "key_name" {
